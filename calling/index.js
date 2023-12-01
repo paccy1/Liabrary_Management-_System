@@ -14,11 +14,7 @@ const { add,
 add(addbooks);
 displayAll();
 
-const updatebook = {
-    author:'Einsteine',
-};
-
-update(3, updatebook);
+update(3, "author" , "Einstein");
 
  const updateManyBooks = { 
     title: 'Me myself and I', 
